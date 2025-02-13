@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # Тип базы данных
-SQL_DATABASE_URI = "sqlite:///sm58.db"
+SQL_DATABASE_URI = "sqlite:///sm12.db"
 
 # Движок базы данных
 engine = create_engine(SQL_DATABASE_URI)
